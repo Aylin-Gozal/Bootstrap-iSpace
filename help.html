@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>iSpace</title>
+    <link rel="icon" type="image/x-icon" href="apple.svg">
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+               <a class="navbar-brand" href="https://www.apple.com/store" >iSpace
+                 <img src="apple.svg">
+               </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Log In</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-primary ms-3"><img src="cart.svg">Cart</button>
+                </div>             
+        </div>
+    </nav>
+
+    <header  class="bg-light text-center py-5">
+        <h3>Help Center <img src="call center.png"></h3>
+    </header>
+
+
+    <form class="text-center py-5">
+        <p for="name">Name: <input type="text" id="name" name="name" placeholder="Enter your name..."></p><br>
+        <p for="surname">Surname: <input type="text" id="surname" name="surname" placeholder="Enter your surname..."></p><br>
+        <p for="email">Email: <input type="email" id="email" name="email" placeholder="Enter your email..."></p><br>
+        <p for="number">Phone Number: <input type="tel" id="tel" name="tel" placeholder="123-456-78-90" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></p><br>
+        <p for="text">Tell about your problems:<br><textarea id="problems" rows="3" cols="35" placeholder="Enter your problems..."></textarea></p>
+        
+        <button class="btn btn-outline-primary ms-3" type="submit" value="submit"><a class="nav-link" href="submit.html">Submit</a></button>
+      
+    </form>
+
+<br><br>
+
+
+    <footer>
+        <div class="text-center">
+           <p class="bg-dark text-white">&copy; iSpace | Privacy Policy</p>
+        </div>
+    </footer>
+</body>
+</html>
